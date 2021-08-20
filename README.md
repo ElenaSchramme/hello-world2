@@ -5,7 +5,7 @@ Here I will define and split the tasks among you, and you can check the boxes wh
 ## Larysa
 - [ ] insert zebras
 - [ ] insert sensors
-- Traffic Light System (TLS)
+- [ ] Traffic Light System (TLS)
   - [ ] create a new file for TLS
   - [ ] define the TLS phase for each crossing with pedestrian phase and when to switch from the 90s to the 120s phase
 
