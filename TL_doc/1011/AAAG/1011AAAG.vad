@@ -1,0 +1,701 @@
+*  CROSSIG-Knoten mit openTRELAN V6.1.1 erzeugte vad-Text (TRENDS-Versorgung)
+*
+*  TRELAN-Compiler 4.2.9
+*
+*  mit Basis #CROSSIGKENNUNG: 2, 38, '000'.
+*
+*  am 12.08.2019 um 15:21:32
+*
+*
+*
+      defs
+           lsa: 'LSA-A01a', 1011, 0, 0, 0
+           P1: 70, 55, 2, upro(6), upro(1), upro(2), upro(3), upro(4), 
+     &       upro(5), stkt(1), upro(8), upro(17), upro(18), upro(19), 
+     &       upro(20), upro(22), upro(23), upro(24); va-Programm
+           P2: 90, 75, 2, upro(6), upro(1), upro(2), upro(3), upro(4), 
+     &       upro(5), stkt(1), upro(8), upro(17), upro(18), upro(19), 
+     &       upro(20), upro(22), upro(23), upro(24); va-Programm
+           P3: 90, 12, 2, upro(6), upro(1), upro(2), upro(3), upro(4), 
+     &       upro(5), stkt(1), upro(8), upro(17), upro(18), upro(19), 
+     &       upro(20), upro(22), upro(23), upro(24); va-Programm
+           P4: 90, 12, 2, upro(6), upro(1), upro(2), upro(3), upro(4), 
+     &       upro(5), stkt(1), upro(8), upro(17), upro(18), upro(19), 
+     &       upro(20), upro(22), upro(23), upro(24); va-Programm
+           P5: 120, 12, 2, upro(6), upro(1), upro(2), upro(3), upro(4), 
+     &       upro(5), stkt(1), upro(8), upro(17), upro(18), upro(19), 
+     &       upro(20), upro(22), upro(23), upro(24); va-Programm
+           P6: 120, 12, 2, upro(6), upro(1), upro(2), upro(3), upro(4), 
+     &       upro(5), stkt(1), upro(8), upro(17), upro(18), upro(19), 
+     &       upro(20), upro(22), upro(23), upro(24); va-Programm
+           P9: 0, 1, 1, upro(6), stkt(9), upro(8), upro(17), upro(18), 
+     &       upro(19), upro(22), upro(23), upro(24); Dauergrünprogramm
+           P11: 70, 55, 1, upro(7), stkt(11), upro(8), upro(17), upro(18), 
+     &       upro(19), upro(22), upro(23), upro(24); Festzeitersatzprogramm
+           P12: 90, 75, 1, upro(7), stkt(12), upro(8), upro(17), upro(18), 
+     &       upro(19), upro(22), upro(23), upro(24); Festzeitersatzprogramm
+           P13: 90, 12, 1, upro(7), stkt(13), upro(8), upro(17), upro(18), 
+     &       upro(19), upro(22), upro(23), upro(24); Festzeitersatzprogramm
+           P14: 90, 12, 1, upro(7), stkt(14), upro(8), upro(17), upro(18), 
+     &       upro(19), upro(22), upro(23), upro(24); Festzeitersatzprogramm
+           P15: 120, 12, 1, upro(7), stkt(15), upro(8), upro(17), upro(18),
+     &        upro(19), upro(22), upro(23), upro(24)
+*           Festzeitersatzprogramm
+           P16: 120, 12, 1, upro(7), stkt(16), upro(8), upro(17), upro(18),
+     &        upro(19), upro(22), upro(23), upro(24)
+*           Festzeitersatzprogramm
+           P21:  0, 0, 1, upro(6), upro(8), upro(17), upro(18), upro(19), 
+     &       upro(22), upro(23), upro(24); Standzeitprogramm
+           P23: 0, 0, 1, stkt(23), upro(24); Einschaltprogramm
+           P24: 0, 1, 1, stkt(24), upro(24); Ausschaltprogramm
+           dlt: 2
+      ende
+      ktab
+           k151: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+     &       0, 0, 0, 0, 0
+           k152: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+     &       0, 0, 0, 0, 0
+           k153: 60, 60, 60, 60, 60, 60, 0, 0, 60, 0, 60, 60, 60, 60, 60, 
+     &       60, 0, 0, 0, 0, 60, 0, 0, 0
+           k154: 30, 30, 30, 30, 30, 30, 0, 0, 30, 0, 30, 30, 30, 30, 30, 
+     &       30, 0, 0, 0, 0, 30, 0, 0, 0
+           k9999: 4, 4, 4, 4, 4, 4, 0, 0, 4, 0, 4, 4, 4, 4, 4, 4, 0, 0, 0, 
+     &       0, 4, 0, 4, 0; Version
+      ende
+      dtab
+           dal1: 120, ' '
+           dbr1: 120, ' '
+           dbl1: 120, ' '
+           dbl2: 120, ' '
+           dc1: 120, ' '
+           dc2: 120, ' '
+           dc3: 120, ' '
+           deg11: 120, ' '; eg11
+           deg12: 120, ' '; eg12
+           deg13: 120, ' '; eg13
+           deg14: 120, ' '; eg14
+           deg15: 120, ' '; eg15
+           deg16: 120, ' '; eg16
+           deg17: 120, ' '; eg17
+           deg18: 120, ' '; eg18
+           ddl2: 120, ' '; Stauschleife
+           mpa1a01: 120, ''
+           mpa1a02: 120, ''
+           mpa1a03: 120, ''
+           mpa1a04: 120, ''
+           mpa1a05: 120, ''
+           mpa1a06: 120, ''
+           mpa1a07: 120, ''
+           mpa1a08: 120, ''
+           mpa1a09: 120, ''
+           mpa1a10: 120, ''
+      ende
+      otab
+           mpp11: mpa1a01, 0 - mpa1a02, 0 | 0
+           mpp12: mpa1a03, 0 - mpa1a04, 0 | 0
+           mpp13: mpa1a05, 0 - mpa1a06, 0 | 0
+           mpp71: mpa1a07, 0 - mpa1a08, 0 | 0
+           mpp72: mpa1a09, 0 - mpa1a10, 0 | 0
+      ende
+      ltab
+           l21: (bd(ddl2)>=10); Stauschleife A1
+      ende
+      ttab
+           trtmax(fvbr): 55, 45, 100, 50, 0, 0, 0, 0, 0, 0, 60, 60, 100, 
+     &       50, 0, 0, 0, 0, 0, 0, 100, 0, 100, 100
+      ende
+      impt
+           LSA1: 'LSA-E09', 5090, 0, 0, 0
+                 LSA1$v50900: 0
+                 LSA1$v50901: 0
+                 LSA1$v50902: 0
+                 LSA1$v50903: 0
+                 LSA1$v50904: 0
+                 LSA1$v50905: 0
+                 LSA1$v50906: 0
+                 LSA1$v50907: 0
+                 LSA1$v50908: 0
+           LSA2: 'LSA-A01', 1010, 0, 0, 0
+                 LSA2$v10100: 0
+                 LSA2$v10101: 0
+                 LSA2$v10102: 0
+                 LSA2$v10103: 0
+                 LSA2$v10104: 0
+                 LSA2$v10105: 0
+                 LSA2$v10106: 0
+                 LSA2$v10107: 0
+                 LSA2$v10108: 0
+           LSA3: 'LSA-A01b', 1012, 0, 0, 0
+                 LSA3$v10120: 0
+                 LSA3$v10121: 0
+                 LSA3$v10122: 0
+                 LSA3$v10123: 0
+                 LSA3$v10124: 0
+                 LSA3$v10125: 0
+                 LSA3$v10126: 0
+                 LSA3$v10127: 0
+                 LSA3$v10128: 0
+      ende
+      expt
+           v7001: 0
+           v7002: 0
+           v7003: 0
+           v7004: 0
+           v7005: 0
+           v7006: 0
+           v7007: 0
+           v7008: 0
+           v7009: 0
+           v7010: 0
+           v7011: 0
+           v7012: 0
+           v7013: 0
+           v7014: 0
+           v7015: 0
+           v7016: 0
+           v10110: 0
+           v10111: 0
+           v10112: 0
+           v10113: 0
+           v10114: 0
+           v10115: 0
+           v10116: 0
+           v10117: 0
+           v10118: 0
+      ende
+      fktneg(arg1,arg2)
+a10        frag(arg1 = 1)       a20,a30
+a20        aktn(arg2 = 0)       a40
+a30        aktn(arg2 = 1)       a40
+a40   ende
+      fktnfasanzeige(arg1)
+a10        frag(arg1 = 1)             a20,a30
+a20        aktn(fasanzeige = 0)       a40
+a30        aktn(fasanzeige = 1)       a40
+a40   ende
+      fktnmobinetdet(arg1,arg2,arg3,arg4)
+a10        frag(arg1 > 1)             a20,a60
+a20        frag(arg2 > 0)             a30,a90
+a30        frag(arg3 > 1)             a40,a100
+a40        frag(arg4 > 0)             a50,a120
+a50        aktn(mobinetdet = 2)       a110
+a60        aktn(mobinetdet = 1)       a70
+a70        aktn(arg4 = 1)             a80
+a90        aktn(mobinetdet = 2)       a70
+a100       aktn(mobinetdet = 0)       a110
+a110       aktn(arg4 = 0)             a80
+a120       aktn(mobinetdet = 0)       a110
+a80   ende
+      fktnmobinetpue(arg1,arg2)
+a10        frag(arg1 > 0)                          a110,a20
+a20        frag(arg1 > 31)                         a30,a40
+a30        aktn(v8000 = (arg1 * 100) + arg2)       a50
+a40        aktn(v8000 = 3100 + arg2)               a50
+a50        frag(v8 = 0)                            a60,a80
+a60        frag(v8 = 1)                            a70,a120
+a70        aktn(v7003 = v8000)                     a90
+a80        aktn(v7001 = v8000)                     a90
+a90        aktn(v8 = v8 + 1)                       a100
+a100       aktn(mobinetpue = v8000)                a110
+a120       aktn(v7002 = v8000)                     a90
+a110  ende
+      fktnnextTZeit(arg1, arg2, arg3, arg4, arg5)
+a10        frag((arg2 > arg1) .und. (arg2 <= arg3))       a20,a30
+a20        aktn(nexttzeit = arg3)                         a50
+a30        aktn(nexttzeit = arg2)                         a40
+a40        aktn(arg4 = (arg5*121 + arg2)/10)              a50
+a50   ende
+      fktnttrafo(arg1)
+a10        aktn(ttrafo = arg1/10)       a20
+a20   ende
+      stkt(1)
+a10        lfix(1)                                                          a20+,a20
+a20        frag(m2 = 1)                                                     a30,a60
+a30        aktn(ag24 = 0)                                                   a40
+a40        frag(m1 = 2 )                                                    a50,a80
+a50        frag(zkl2(uzp-3, uzp))                                           a20+,a10
+a60        aktn(ag24 = 1)                                                   a70
+a70        frag(tgr(fva) >= 10 .und. tgr(fval) >= 5)                        a70+,a90
+a80        frag(tgr(fva) >= 10 .und. tgr(fval) >= 5)                        a80+,a110
+a90        frag(zkl1(t1,t1+5))                                              a100,a130
+a100       frag(zkl2(uzp-3, uzp))                                           a20+,a10
+a110       phab(1, 9:start = 0, tpue = 3: a120)                             
+           sprg         a200                                                
+a120       frag(tgr(fvbr) > 0)                                              a270,a220
+a130       phab(1, 9:start = 0)                                             
+           sprg         a140                                                
+a140       frag(zkl2(t1,t2))                                                a150,a140+
+a150       phab(3, 16:start = 0)                                            
+           sprg         a160                                                
+a160       frag(zkl2(t1,t3))                                                a170,a160+
+a170       phab(6, 5:start = 0)                                             
+           sprg         a180                                                
+a180       frag(zkl2(t1,t4))                                                a190,a180+
+a190       phab(18, 6:start = 0)                                            
+           sprg         a10                                                 
+a200       frag(m1 = 3)                                                     a210,a230
+a210       frag(m1 = 4 .oder. m2 = 1)                                       a200+,a250
+a220       frag(ms60 = 5)                                                   a120+,a260
+a230       phab(2, 11:start = 0)                                            
+           sprg         a240                                                
+a240       frag(m1 = 4 .oder. m2 = 1)                                       a240+,a280
+a250       phab(3, 16:start = 0)                                            
+           sprg         a290                                                
+a260       phab(21, 5:start = 0)                                            
+           sprg         a270                                                
+a270       palb(1)                                                           
+a280       phab(4, 17:start = 0)                                            
+           sprg         a290                                                
+a290       frag(m1 = 5)                                                     a300,a310
+a300       frag(m1 = 6 .oder. m2 = 1)                                       a290+,a330
+a310       phab(5, 10:start = 0)                                            
+           sprg         a320                                                
+a320       frag(m1 = 1 .oder. m2 = 1)                                       a320+,a340
+a330       phab(6, 5:start = 0)                                             
+           sprg         a350                                                
+a340       phab(7, 7:start = 0)                                             
+           sprg         a350                                                
+a350       frag(m1 = 1 .oder. m2 = 1 .oder. trt(fvbr)>trtmax(fvbr)-1)       a350+,a360
+a360       phab(8, 6:start = 0)                                             
+           sprg         a10                                                 
+      ende
+      stkt(9)
+a10        lfix(1)                a20+,a20
+a20        aktn(t = 0)            a30
+a30        wart (d = 5)           
+           sprg         a10       
+      ende
+      stkt(11)
+a10        fest(1:start,1)       
+      ende
+      stkt(12)
+a10        fest(2:start,1)       
+      ende
+      stkt(13)
+a10        fest(3:start,1)       
+      ende
+      stkt(14)
+a10        fest(4:start,1)       
+      ende
+      stkt(15)
+a10        fest(5:start,1)       
+      ende
+      stkt(16)
+a10        fest(6:start,1)       
+      ende
+      stkt(23)
+a10        espg(1)                      
+a20        wart (d = 1)                 
+a30        aktn(ag25 = 0)               a40
+a40        aktn(ag26 = 0)               a50
+a50        aktn(ag27 = 0)               a60
+a60        aktn(ag28 = 0)               a70
+a70        phab(51, 11:start = 0)       
+           sprg         a80             
+a80        wart (d = 1)                 
+a90        lfix(1)                      a90+,a10
+      ende
+      stkt(24)
+a10        lfix(1)                      a10+,a20
+a20        phab(52, 12:start = 0)       
+           sprg         a30             
+a30        wart (d = 1)                 
+a40        aspg(1)                      
+           sprg         a10             
+      ende
+      upro(1)
+a10        frag(m11 = 1 .oder. m14 = 1)       a20,a50
+a20        frag(m12 = 1 .oder. m15 = 1)       a30,a80
+a30        frag(m13 = 1 .oder. m16 = 1)       a40,a100
+a40        aktn(m1=0)                         a120
+a50        frag(m12 = 1 .oder. m15 = 1)       a60,a110
+a60        frag(m13 = 1 .oder. m16 = 1)       a70,a130
+a70        aktn(m1 = 2)                       a120
+a80        frag(m13 = 1 .oder. m16 = 1)       a90,a140
+a90        aktn(m1 = 5)                       a120
+a100       aktn(m1 = 1)                       a120
+a110       aktn(m1 = 3)                       a120
+a120       wart (d = 1)                       
+           sprg         a10                   
+a130       aktn(m1 = 4)                       a120
+a140       aktn(m1 = 6)                       a120
+      ende
+      upro(2)
+a10        frag(m11 = 1)          a20,a30
+a20        frag(m14 = 1)          a10+,a40
+a30        frag(m14 = 1)          a40,a10+
+a40        aktn(ag21 = 1)         a50
+a50        wart (d = 5)           
+a60        aktn(ag21 = 0)         a70
+a70        wart (d = 5)           
+           sprg         a10       
+      ende
+      upro(3)
+a10        frag(m12 = 1)          a20,a30
+a20        frag(m15 = 1)          a10+,a40
+a30        frag(m15 = 1)          a40,a10+
+a40        aktn(ag22 = 1)         a50
+a50        wart (d = 5)           
+a60        aktn(ag22 = 0)         a70
+a70        wart (d = 5)           
+           sprg         a10       
+      ende
+      upro(4)
+a10        frag(m13 = 1)          a10+,a20
+a20        aktn(ag23 = 1)         a30
+a30        wart (d = 5)           
+a40        aktn(ag23 = 0)         a50
+a50        wart (d = 5)           
+           sprg         a10       
+      ende
+      upro(5)
+a10        frag(sto(deg11) > 2 .oder. sto(deg12) > 2 .oder. sto(deg13) > 2 .oder. 
+     &       sto(deg14) > 2 .oder. sto(deg15) > 2 .oder. sto(deg16) > 2 .oder. m17=0) 
+     &             a20,a50
+a20        frag(m1 = 2)            a30,a100
+a30        frag(tz21 > 0)          a40,a130
+a40        aktn(tz21 = 0)          a130
+a50        aktn(m2 = 1)            a60
+a60        aktn(tz21 = aus)        a70
+a70        aktn(tz22 = aus)        a80
+a80        aktn(tz24 = aus)        a90
+a90        aktn(tz26 = aus)        a10+
+a100       aktn(tz21 = aus)        a110
+a110       frag(m1 = 3)            a120,a140
+a120       frag(m1 = 4)            a150,a190
+a130       frag(tz21 > 240 )       a20+,a170
+a140       frag(m1 = 4)            a150,a190
+a150       frag(tz22 > 0)          a160,a220
+a160       aktn(tz22 = 0)          a220
+a170       aktn(m2 = 1)            a180
+a180       aktn(tz21 = aus)        a10+
+a190       aktn(tz22 = aus)        a200
+a200       frag(m1 = 5)            a210,a230
+a210       frag(m1 = 6)            a240,a280
+a220       frag(tz22 > 60)         a110+,a260
+a230       frag(m1 = 6)            a240,a280
+a240       frag(tz24 > 0)          a250,a320
+a250       aktn(tz24 = 0)          a320
+a260       aktn(m2 = 1)            a270
+a270       aktn(tz22 = aus)        a10+
+a280       aktn(tz24 = aus)        a290
+a290       frag(m1 = 1)            a300,a330
+a300       frag(tz26 > 0)          a310,a350
+a310       aktn(tz26 = 0)          a350
+a320       frag(tz24 > 60)         a200+,a360
+a330       aktn(tz26 = aus)        a340
+a340       aktn(m2 = 0)            a10
+a350       frag(tz26 > 60)         a290+,a380
+a360       aktn(m2 = 1)            a370
+a370       aktn(tz24 = aus)        a10+
+a380       aktn(m2 = 1)            a390
+a390       aktn(tz26 = aus)        a10+
+      ende
+      upro(6)
+a10        aktn (v9999 = eg (b(deg11),m11))       
+           aktn (v9999 = eg (b(deg12),m12))       
+           aktn (v9999 = eg (b(deg13),m13))       
+           aktn (v9999 = eg (b(deg14),m14))       
+           aktn (v9999 = eg (b(deg15),m15))       
+           aktn (v9999 = eg (b(deg16),m16))       
+           aktn (v9999 = eg (b(deg17),m17))       a20
+a20        wart (d = 1)                           
+           sprg         a10                       
+      ende
+      upro(7)
+a10        aktn(ag24 = 1)         a20
+a20        aktn(m2 = 0)           a30
+a30        aktn(tz21 = aus)       a40
+a40        aktn(tz22 = aus)       a50
+a50        aktn(tz24 = aus)       a60
+a60        aktn(tz26 = aus)       a70
+a70        frag(p = 1)            a70+,a10+
+      ende
+      upro(8)
+a10        aktn (m121 = fasanzeige (ag21))       
+           aktn (m122 = fasanzeige (ag22))       
+           aktn (m123 = fasanzeige (ag23))       
+           aktn (m124 = fasanzeige (ag24))       a20
+a20        wart (d = 1)                          
+           sprg         a10                      
+      ende
+      upro(17)
+a10        aktn(v10110 = 11)       a20
+a20        aktn(v10111 = 11)       a30
+a30        aktn(v10112 = 11)       a40
+a40        aktn(v10113 = 11)       a50
+a50        aktn(v10114 = 11)       a60
+a60        aktn(v10115 = 11)       a70
+a70        aktn(v10116 = 11)       a80
+a80        aktn(v10117 = 11)       a90
+a90        aktn(v10118 = 11)       a100
+a100       wart (d = 100)          
+a110       aktn(v10110 = 0)        a120
+a120       aktn(v10111 = 0)        a130
+a130       aktn(v10112 = 0)        a140
+a140       aktn(v10113 = 0)        a150
+a150       aktn(v10114 = 0)        a160
+a160       aktn(v10115 = 0)        a170
+a170       aktn(v10116 = 0)        a180
+a180       aktn(v10117 = 0)        a190
+a190       aktn(v10118 = 0)        a200
+a200       wart (d = 100)          
+           sprg         a10        
+      ende
+      upro(18)
+a10        frag(lsa1$v50900 = 9)         a20,a30
+a20        aktn(ms0 = 0)                 a40
+a30        aktn(ms0 = 1)                 a40
+a40        frag(lsa1$v50901 = 9)         a50,a60
+a50        aktn(ms1 = 0)                 a70
+a60        aktn(ms1 = 1)                 a70
+a70        frag(lsa1$v50902 = 999)       a80,a90
+a80        aktn(ms2 = 0)                 a100
+a90        aktn(ms2 = 1)                 a100
+a100       frag(lsa1$v50903 = 999)       a110,a120
+a110       aktn(ms3 = 0)                 a130
+a120       aktn(ms3 = 1)                 a130
+a130       frag(lsa1$v50904 = 999)       a140,a150
+a140       aktn(ms4 = 0)                 a160
+a150       aktn(ms4 = 1)                 a160
+a160       frag(lsa1$v50905 = 999)       a170,a180
+a170       aktn(ms5 = 0)                 a190
+a180       aktn(ms5 = 1)                 a190
+a190       frag(lsa1$v50906 = 999)       a200,a210
+a200       aktn(ms6 = 0)                 a220
+a210       aktn(ms6 = 1)                 a220
+a220       frag(lsa1$v50907 = 999)       a230,a240
+a230       aktn(ms7 = 0)                 a250
+a240       aktn(ms7 = 1)                 a250
+a250       frag(lsa1$v50908 = 999)       a260,a270
+a260       aktn(ms8 = 0)                 a280
+a270       aktn(ms8 = 1)                 a280
+a280       frag(lsa2$v10100 = 1)         a290,a300
+a290       aktn(ms20 = 0)                a310
+a300       aktn(ms20 = 1)                a310
+a310       frag(lsa2$v10101 = 1)         a320,a330
+a320       aktn(ms21 = 0)                a340
+a330       aktn(ms21 = 1)                a340
+a340       frag(lsa2$v10102 = 999)       a350,a360
+a350       aktn(ms22 = 0)                a370
+a360       aktn(ms22 = 1)                a370
+a370       frag(lsa2$v10103 = 999)       a380,a390
+a380       aktn(ms23 = 0)                a400
+a390       aktn(ms23 = 1)                a400
+a400       frag(lsa2$v10104 = 999)       a410,a420
+a410       aktn(ms24 = 0)                a430
+a420       aktn(ms24 = 1)                a430
+a430       frag(lsa2$v10105 = 999)       a440,a450
+a440       aktn(ms25 = 0)                a460
+a450       aktn(ms25 = 1)                a460
+a460       frag(lsa2$v10106 = 999)       a470,a480
+a470       aktn(ms26 = 0)                a490
+a480       aktn(ms26 = 1)                a490
+a490       frag(lsa2$v10107 = 999)       a500,a510
+a500       aktn(ms27 = 0)                a520
+a510       aktn(ms27 = 1)                a520
+a520       frag(lsa2$v10108 = 999)       a530,a540
+a530       aktn(ms28 = 0)                a550
+a540       aktn(ms28 = 1)                a550
+a550       frag(lsa3$v10120 = 12)        a560,a570
+a560       aktn(ms40 = 0)                a580
+a570       aktn(ms40 = 1)                a580
+a580       frag(lsa3$v10121 = 12)        a590,a600
+a590       aktn(ms41 = 0)                a610
+a600       aktn(ms41 = 1)                a610
+a610       frag(lsa3$v10122 = 999)       a620,a630
+a620       aktn(ms42 = 0)                a640
+a630       aktn(ms42 = 1)                a640
+a640       frag(lsa3$v10123 = 999)       a650,a660
+a650       aktn(ms43 = 0)                a670
+a660       aktn(ms43 = 1)                a670
+a670       frag(lsa3$v10124 = 999)       a680,a690
+a680       aktn(ms44 = 0)                a700
+a690       aktn(ms44 = 1)                a700
+a700       frag(lsa3$v10125 = 999)       a710,a720
+a710       aktn(ms45 = 0)                a730
+a720       aktn(ms45 = 1)                a730
+a730       frag(lsa3$v10126 = 999)       a740,a750
+a740       aktn(ms46 = 0)                a760
+a750       aktn(ms46 = 1)                a760
+a760       frag(lsa3$v10127 = 999)       a770,a780
+a770       aktn(ms47 = 0)                a790
+a780       aktn(ms47 = 1)                a790
+a790       frag(lsa3$v10128 = 999)       a800,a810
+a800       aktn(ms48 = 0)                a820
+a810       aktn(ms48 = 1)                a820
+a820       wart(d = 100)                 
+           sprg         a10              
+      ende
+      upro(19)
+a10        aktn(v8 = 0)                                a20
+a20        aktn(v7001 = 0)                             a30
+a30        aktn(v7002 = 0)                             a40
+a40        aktn(v7003 = 0)                             a50
+a50        aktn (v9999 = mobinetpue (tpue1,1))         
+           aktn (v9999 = mobinetpue (tpue2,2))         
+           aktn (v9999 = mobinetpue (tpue3,3))         
+           aktn (v9999 = mobinetpue (tpue4,4))         
+           aktn (v9999 = mobinetpue (tpue5,5))         
+           aktn (v9999 = mobinetpue (tpue6,6))         
+           aktn (v9999 = mobinetpue (tpue7,7))         
+           aktn (v9999 = mobinetpue (tpue8,8))         
+           aktn (v9999 = mobinetpue (tpue18,18))       
+           aktn (v9999 = mobinetpue (tpue21,21))       
+           aktn (v9999 = mobinetpue (tpue51,51))       
+           aktn (v9999 = mobinetpue (tpue52,52))       
+           aktn (v9999 = mobinetpue (tpue61,61))       
+           aktn (v9999 = mobinetpue (tpue62,62))       a60
+a60        aktn (v1901 = ttrafo (t))                   
+           aktn (v1902 = ttrafo (p))                   
+           aktn (v7001 = ttrafo (v7001))               
+           aktn (v7002 = ttrafo (v7002))               
+           aktn (v7003 = ttrafo (v7003))               a70
+a70        aktn(v7004 = v1902*121 + v1901)             a80
+a80        wart(d=1)                                   
+           sprg         a10                            
+      ende
+      upro(20)
+a10        aktn(v9999 = 1000)                                      a20
+a20        aktn (v1903 = nexttzeit (t,t1,v9999,v7005,1))           
+           aktn (v1903 = nexttzeit (t,t2,v1903,v7005,2))           
+           aktn (v1903 = nexttzeit (t,t3,v1903,v7005,3))           
+           aktn (v1903 = nexttzeit (t,t4,v1903,v7005,4))           
+           aktn (v1903 = nexttzeit (t,t5,v1903,v7005,5))           a30
+a30        frag(v1903 < v9999)                                     a40,a50
+a40        aktn (v1903 = nexttzeit (0,t1,v1903,v7005,1))           
+           aktn (v1903 = nexttzeit (0,t2,v1903,v7005,2))           
+           aktn (v1903 = nexttzeit (0,t3,v1903,v7005,3))           
+           aktn (v1903 = nexttzeit (0,t4,v1903,v7005,4))           
+           aktn (v1903 = nexttzeit (0,t5,v1903,v7005,5))           a50
+a50        aktn (v1906 = nexttzeit (v1903,t1,v9999,v7006,1))       
+           aktn (v1906 = nexttzeit (v1903,t2,v1906,v7006,2))       
+           aktn (v1906 = nexttzeit (v1903,t3,v1906,v7006,3))       
+           aktn (v1906 = nexttzeit (v1903,t4,v1906,v7006,4))       
+           aktn (v1906 = nexttzeit (v1903,t5,v1906,v7006,5))       a60
+a60        frag(v1906 < v9999)                                     a70,a80
+a70        aktn (v1906 = nexttzeit (0,t1,v1906,v7006,1))           
+           aktn (v1906 = nexttzeit (0,t2,v1906,v7006,2))           
+           aktn (v1906 = nexttzeit (0,t3,v1906,v7006,3))           
+           aktn (v1906 = nexttzeit (0,t4,v1906,v7006,4))           
+           aktn (v1906 = nexttzeit (0,t5,v1906,v7006,5))           a80
+a80        wart(d=1)                                               
+           sprg         a10                                        
+      ende
+      upro(22)
+a10        aktn(v7007 = 100 * fz(mpp11) + 10 * fz(mpp12) + fz(mpp13))              a20
+a20        aktn(v7008 = 100 * fz(mpp71) + 10 * fz(mpp72)  )                        a30
+a30        aktn(v7009 = mobinetdet (bd(dal1), b(dal1), zd(dal1), v88051))          a40
+a40        aktn(v85 = mobinetdet (bd(dbr1), b(dbr1), zd(dbr1), v88021))            a50
+a50        aktn(v7009 = v7009+ (3 * v85))                                          a60
+a60        aktn(v85 = mobinetdet (bd(dbl1), b(dbl1), zd(dbl1), v88061))            a70
+a70        aktn(v7009 = v7009 + (9 * v85))                                         a80
+a80        aktn(v85 = mobinetdet (bd(dbl2), b(dbl2), zd(dbl2), v88062))            a90
+a90        aktn(v7009 = v7009 + (27 * v85))                                        
+     &       a100
+a100       aktn(v85 = mobinetdet (bd(dc1), b(dc1), zd(dc1), v88031))               
+     &       a110
+a110       aktn(v7009 = v7009 + (81 * v85))                                        
+     &       a120
+a120       aktn(v85 = mobinetdet (bd(dc2), b(dc2), zd(dc2), v88032))               
+     &       a130
+a130       aktn(v7009= v7009 + (243 * v85))                                        
+     &       a140
+a140       aktn(v85 = mobinetdet (bd(dc3), b(dc3), zd(dc3), v88033))               
+     &       a150
+a150       aktn(v7009 = v7009 + (729 * v85))                                       
+     &       a160
+a160       aktn(v7010 = mobinetdet (bd(deg11), b(deg11), zd(deg11), v88041))       
+     &       a170
+a170       aktn(v85 = mobinetdet (bd(deg12), b(deg12), zd(deg12), v88042))         
+     &       a180
+a180       aktn(v7010 = v7010+ (3 * v85))                                          
+     &       a190
+a190       aktn(v85 = mobinetdet (bd(deg13), b(deg13), zd(deg13), v88043))         
+     &       a200
+a200       aktn(v7010 = v7010 + (9 * v85))                                         
+     &       a210
+a210       aktn(v85 = mobinetdet (bd(deg14), b(deg14), zd(deg14), v88044))         
+     &       a220
+a220       aktn(v7010 = v7010 + (27 * v85))                                        
+     &       a230
+a230       aktn(v85 = mobinetdet (bd(deg15), b(deg15), zd(deg15), v88045))         
+     &       a240
+a240       aktn(v7010 = v7010 + (81 * v85))                                        
+     &       a250
+a250       aktn(v85 = mobinetdet (bd(deg16), b(deg16), zd(deg16), v88046))         
+     &       a260
+a260       aktn(v7010= v7010 + (243 * v85))                                        
+     &       a270
+a270       aktn(v85 = mobinetdet (bd(deg17), b(deg17), zd(deg17), v88047))         
+     &       a280
+a280       aktn(v7010= v7010 + (729 * v85))                                        
+     &       a290
+a290       aktn(v7011 = mobinetdet (bd(deg18), b(deg18), zd(deg18), v88048))       
+     &       a300
+a300       aktn(v85 = mobinetdet (bd(ddl2), b(ddl2), zd(ddl2), v88082))            
+     &       a310
+a310       aktn(v7011 = v7011+ (3 * v85))                                          
+     &       a320
+a320       aktn (v7007 = ttrafo (v7007))                                           
+           aktn (v7008 = ttrafo (v7008))                                           
+           aktn (v7009 = ttrafo (v7009))                                           
+           aktn (v7010 = ttrafo (v7010))                                           
+           aktn (v7011 = ttrafo (v7011))                                           
+     &       a330
+a330       wart (d = 1)                                                            
+           sprg         a10                                                        
+      ende
+      upro(23)
+a10        frag(tan(mpp71) >= k151  .oder. tan(mpp72) >= k152)       a10+,a20
+a20        aktn(tz1 = 0)                                             a30
+a30        aktn(m112 = 0)                                            a40
+a40        frag(tan(mpp71) >= k151)                                  a50,a60
+a50        frag(tz1 > k153 .oder. tan(mpp72) < 0)                    a50+,a110
+a60        frag(tz1 > k153 .oder. tan(mpp71) < 0)                    a60+,a70
+a70        aktn(tz2 = 0)                                             a80
+a80        frag( tan(mpp72) > 0)                                     a90,a100
+a90        frag(tz2 > k154)                                          a90+,a110
+a100       frag(tz2 > k154  .oder. tan(mpp72) < 0)                   a100+,a110
+a110       aktn(m112 = 0)                                            a120
+a120       aktn(tz1 = aus)                                           a130
+a130       aktn(tz2 = aus)                                           a140
+a140       aktn(s(mpa1a08) = tast)                                   a150
+a150       aktn(s(mpa1a10) = tast)                                   a160
+a160       wart (d = 1)                                              
+           sprg         a10                                          
+      ende
+      upro(24)
+a10        frag(zkl1(10,10+dlt+1))               a20,a40
+a20        aktn(m9999 = k9999)                   a30
+a30        frag(eg6 >= 0 .und. eg6 < 90)         a100,a90
+a40        aktn(m9999 = 0)                       a50
+a50        aktn(ag6=0)                           a60
+a60        aktn(ag7=0)                           a70
+a70        aktn(ag31=0)                          a80
+a80        frag(p < 7)                           a220,a110
+a90        aktn(m9016 = eg6)                     a100
+a100       frag(eg7 >= 0 .und. eg7 < 90)         a130,a120
+a110       frag(t1 > 0 .und. t1 < 90)            a150,a140
+a120       aktn(m9017 = eg7)                     a130
+a130       frag(eg32 >= 0 .und. eg32 < 90)       a220,a160
+a140       aktn(m9001 = t1)                      a150
+a150       frag(t2 > 0 .und. t2 < 90)            a180,a170
+a160       aktn(m9022 = eg32)                    a220
+a170       aktn(m9002 = t2)                      a180
+a180       frag(t3 > 0 .und. t3 < 90)            a200,a190
+a190       aktn(m9003 = t3)                      a200
+a200       frag(t4 > 0 .und. t4 < 90)            a220,a210
+a210       aktn(m9004 = t4)                      a220
+a220       frag(m112 = 1)                        a230,a240
+a230       aktn(ag26 = 0)                        a250
+a240       aktn(ag26 = 1)                        a250
+a250       frag(l21)                             a260,a270
+a260       aktn(ms60 = 1)                        a280
+a270       aktn(ms60 = 1)                        a280
+a280       aktn(m9997 = pw)                      a290
+a290       wart (d=1)                            
+           sprg         a10                      
+      ende
+*CHECKSUMME:
+*   32790,   24415

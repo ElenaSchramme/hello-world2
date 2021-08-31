@@ -1,0 +1,218 @@
+*  CROSSIG-Knoten mit openTRELAN V6.1.1 erzeugte vad-Text (TRENDS-Versorgung)
+*
+*  TRELAN-Compiler 4.2.9
+*
+*  mit Basis #CROSSIGKENNUNG: 2, 186, '000'.
+*
+*  am 27.08.2019 um 16:02:34
+*
+*
+*
+      defs
+           lsa: 'FSA-048', 48, 0, 0, 0
+           P1: 70, 16, 2, upro(6), upro(13), upro(8), upro(9), upro(10), 
+     &       upro(12), stkt(1), upro(24); VA-Programm
+           P2: 90, 13, 2, upro(6), upro(13), upro(8), upro(9), upro(10), 
+     &       upro(12), stkt(1), upro(24); VA-Programm
+           P4: 90, 64, 2, upro(6), upro(13), upro(8), upro(9), upro(10), 
+     &       upro(12), stkt(1), upro(24); VA-Programm
+           P9: 0, 1, 1, upro(6), upro(11), stkt(9), upro(24); HR-Dauergrün
+           P11: 70, 16, 1, upro(7), upro(11), stkt(11), upro(24)
+*           Festzeitersatzprogramm P1
+           P12: 90, 13, 1, upro(7), upro(11), stkt(12), upro(24)
+*           Festzeitersatzprogramm P2
+           P14: 90, 64, 1, upro(7), upro(11), stkt(14), upro(24)
+*           Festzeitersatzprogramm P4
+           P21: 0, 0, 1, upro(6), upro(24); Standzeitprogramm
+           P23: 0, 0, 1, stkt(23); Einschaltprogramm
+           P24: 0, 1, 1, stkt(24); Ausschaltprogramm
+           dlt: 2
+      ende
+      ktab
+           k1: 10, 10, 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+     &       0, 0, 0, 0, 0; tgr(fga) ohne ÖV
+           k2: 5, 5, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+     &       0, 0, 0, 0; tgr(fvb): Progression auf LSA C1 am Freigabebeginn
+           k5: 120, 120, 0, 120, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+     &       0, 0, 0, 0, 0, 0; max. Wartezeit für FGa im Störfall
+           k3: 5, 5, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+     &       0, 0, 0, 0; Belegungszeit DB1 und DB2
+           k4: 180, 180, 0, 180, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+     &       0, 0, 0, 0, 0, 0; Belegungszeit DC1 und DC2
+           k9999: 2, 2, 0, 2, 0, 0, 0, 0, 2, 0, 2, 2, 0, 2, 0, 0, 0, 0, 0, 
+     &       0, 2, 0, 2, 2; Versionsanzeige
+      ende
+      dtab
+           da1: 120, ''; Zeitlückendetektor
+           db1: 120, ''; Zeitlückendetektor/ Belegung FVB
+           dc1: 120, ''; Anforderung/ Belegung Bus
+           dc2: 120, ''; Anforderung/ Belegung Bus
+           dres1: 120, ''; IV Reserve
+           dres2: 120, ''; IV Reserve
+           tafga: 120, ''; FG-Anforderung
+           tafba: 120, ''; FB-Anforderung
+      ende
+      ltab
+           l1: (zd(da1)>=3.0.nund.sto(da1)>1).und.(zd(db1)>=3.0.nund.
+     &       sto(db1)>1); Bemessung FVA und FVB
+           l21: ((a(tafga).nund.sto(tafga)>1).oder.(sto(tafga)>1.und.
+     &       trt(fga)>0)).oder.m3=1; Anfo. fg a
+           l22: ((a(tafba).nund.sto(tafba)>1).oder.(sto(tafba)>1.und.
+     &       trt(fbat)>0)); Anfo. fb a
+           l41: bd(dc1)>k4.und.bd(dc2)>k4.und.bd(dc2)>bd(dc1)
+*           Anfo./Belegung Bus
+           l42: bd(db1)>k3; Belegung FVB
+      ende
+      ttab
+           tgrmin(fva): 10, 10, 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+     &       0, 0, 0, 0, 0, 0, 0, 0; tgrmin FV A
+           tgrmin(fga): 7, 7, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+     &       0, 0, 0, 0, 0, 0, 0; tgrmin FG a
+           tgrmin(fbat): 10, 10, 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+     &        0, 0, 0, 0, 0, 0, 0, 0; tgrmin FG a
+      ende
+      atab
+           a(tafga): fga, 0
+           a(tafba): fbat, 0
+      ende
+      fktnfgquit(arg1,arg2,arg3,arg4)
+a10        frag(arg1>0)         a20,a30
+a20        frag(arg2=1)         a30,a40
+a30        frag(arg3>0)         a70,a60
+a40        frag(arg3>0)         a50,a70
+a50        aktn(arg4=ein)       a70
+a60        aktn(arg4=aus)       a70
+a70   ende
+      stkt(1)
+a10        lfix(1)                                      a40+,a20
+a20        frag(tgr(sofgaq) > 0)                        a40,a30
+a30        aktn(m3=1)                                   a40
+a40        aktn(ag13=0)                                 a50
+a50        frag(tgr(fva)>=tgrmin(fva))                  a50+,a60
+a60        frag(l21 .oder. l22)                         a70,a90
+a70        aktn(ag13=1)                                 a80
+a80        aktn(ag14=1)                                 a10
+a90        phab(1, 12:start = 0, tpue = 5: a100)        
+           sprg         a130                            
+a100       aktn(m3=0)                                   a110
+a110       aktn(m4=1)                                   a120
+a120       palb(1)                                       
+a130       frag(tgr(fga) >= tgrmin(fga))                a130+,a140
+a140       frag(m4=1)                                   a160,a150
+a150       frag(tgr(fbat) >= tgrmin(fbat))              a130+,a160
+a160       frag(eg11=1 .und. eg12=1 .und. eg13=1)       a170,a180
+a170       frag(tgr(fga)>=k1)                           a130+,a180
+a180       phab(2, 16:start = 0)                        
+           sprg         a10                             
+      ende
+      stkt(9)
+a10        lfix(1)                a20+,a20
+a20        aktn(t=0)              a30
+a30        wart(d=5)              
+           sprg         a10       
+      ende
+      stkt(11)
+a10        fest(1: start, 1)       
+      ende
+      stkt(12)
+a10        fest(2: start, 1)       
+      ende
+      stkt(14)
+a10        fest(4: start, 1)       
+      ende
+      stkt(23)
+a10        aktn(ag14=0)       a20
+a20        aktn(ag11=0)       a30
+a30        aktn(ag12=0)       a40
+a40        espg(1)            
+a50        lfix(1)            a50+,a10
+      ende
+      stkt(24)
+a10        lfix(1)                           a20+,a20
+a20        aktn(s(sofgaq)=aus)               a30
+a30        aktn(tz1=aus)                     a40
+a40        aktn(tz2=aus)                     a50
+a50        aktn(ag11=0)                      a60
+a60        aktn(ag12=0)                      a70
+a70        wart(d=1)                         
+a80        frag(tgr(fva)>=tgrmst(fva))       a80+,a90
+a90        aspg(1)                           
+           sprg         a10                  
+      ende
+      upro(6)
+a10        aktn(v9999=fgquit(tgr(fga),(l21 .oder. l22),tgr(sofgaq),s(sofgaq)))       
+     &       a20
+a20        wart(d=1)                                                                 
+           sprg         a10                                                          
+      ende
+      upro(7)
+a10        aktn(s(sofgaq)=ein)       a20
+a20        frag(p=1)                 a20+,a30
+a30        wart(d=1)                 
+           sprg         a10          
+      ende
+      upro(8)
+a10        frag(l21 .und. (taus(fga)>0))       a10+,a20
+a20        aktn(tz1=0)                         a30
+a30        frag(tgr(fga)>0)                    a30+,a40
+a40        aktn(tz1=aus)                       a50
+a50        frag(taus(fga)>0)                   a50+,a10
+      ende
+      upro(9)
+a10        frag(l41)              a20,a30
+a20        aktn(ag12=0)           a40
+a30        aktn(ag12=1)           a40
+a40        wart(d=1)              
+           sprg         a10       
+      ende
+      upro(10)
+a10        frag(l42)                    a40,a20
+a20        frag((tgr(fvb) >= k2))       a30,a40
+a30        aktn(ag11=1)                 a50
+a40        aktn(ag11=0)                 a50
+a50        wart(d=1)                    
+           sprg         a10             
+      ende
+      upro(11)
+a10        aktn(tz1=aus)          a20
+a20        aktn(tz2=aus)          a30
+a30        aktn(ag11=0)           a40
+a40        aktn(ag12=0)           a50
+a50        aktn(ag13=0)           a60
+a60        aktn(ag14=0)           a70
+a70        frag(p=1)              a70+,a80
+a80        wart(d=1)              
+           sprg         a10       
+      ende
+      upro(12)
+a10        frag(m4=1)                               a10+,a20
+a20        frag(l22)                                a70,a30
+a30        frag(uhr>=6::00.nund. uhr>=22::00)       a40,a50
+a40        phab(4, 0:start = 0)                     
+           sprg         a60                         
+a50        phab(3, 0:start = 0)                     
+           sprg         a60                         
+a60        frag(tgr(fbat)>0)                        a70,a60+
+a70        aktn(m4=0)                               a80
+a80        wart(d=1)                                
+           sprg         a10                         
+      ende
+      upro(13)
+a10        frag(eg11=0.und. eg12=0 .und. eg13=0)       a60,a20
+a20        aktn(tz2=0)                                 a30
+a30        frag(tz2>5)                                 a50,a40
+a40        aktn(m123=1)                                a50
+a50        frag(eg11=0.und. eg12=0 .und. eg13=0)       a60,a30+
+a60        aktn(tz2=aus)                               a70
+a70        aktn(m123=1)                                a10+
+      ende
+      upro(24)
+a10        frag(zkl1(10,10+dlt+1))       a20,a30
+a20        aktn(m9999 = k9999)           a40
+a30        aktn(m9999 = 0)               a40
+a40        aktn(m9997 = pw)              a50
+a50        wart(d=1)                     
+           sprg         a10              
+      ende
+*CHECKSUMME:
+*    9061,   42061
