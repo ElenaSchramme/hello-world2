@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on Mi 10 Nov 2021 14:46:55 CET by Eclipse SUMO netedit Version 1.4.0
+<!-- generated on Mo 22 Nov 2021 12:23:01 CET by Eclipse SUMO netedit Version 1.4.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
@@ -76,7 +76,7 @@
     <e1Detector id="1010_9" lane="356952270_1" pos="19.72" freq="900.00" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="1011_1" lane="172515812#0_3" pos="37.28" freq="900.00" name="1011" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="1011_2" lane="172515811#0_1" pos="51.93" freq="900.00" name="1011" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
-    <e1Detector id="1011_4" lane="172515811#0_2" pos="52.01" freq="900.00" name="1011" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
+    <e1Detector id="1011_3" lane="172515811#0_2" pos="52.01" freq="900.00" name="1011" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="1011_5" lane="29458640#0_2" pos="43.90" freq="900.00" name="1011" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="1011_6" lane="29458640#0_3" pos="40.49" freq="900.00" name="1011" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="1011_7" lane="29458640#0_1" pos="43.96" freq="900.00" name="1011" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
@@ -93,11 +93,11 @@
     <e1Detector id="1022_6" lane="-32923867#4_3" pos="22.37" freq="900.00" name="1022" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="1022_7" lane="-26471752#1_1" pos="15.54" freq="900.00" name="1022" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="1022_8" lane="-26471752#1_2" pos="15.34" freq="900.00" name="1022" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
-    <e1Detector id="1080_1" lane="749560275_0" pos="20.52" freq="900.00" name="1080" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
-    <e1Detector id="1080_2" lane="749560275_1" pos="24.33" freq="900.00" name="1080" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
-    <e1Detector id="1080_3" lane="749560263#0_0" pos="11.90" freq="900.00" name="1080" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
-    <e1Detector id="1080_4" lane="749560263#0_1" pos="12.09" freq="900.00" name="1080" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
-    <e1Detector id="1080_5" lane="-749560274#2_1" pos="14.51" freq="900.00" name="1080" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
+    <e1Detector id="1080_1" lane="749560275_0" pos="9.73" freq="900.00" name="1080" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
+    <e1Detector id="1080_2" lane="749560275_1" pos="9.73" freq="900.00" name="1080" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
+    <e1Detector id="1080_3" lane="749560263#0_0" pos="9.99" freq="900.00" name="1080" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
+    <e1Detector id="1080_4" lane="749560263#0_1" pos="9.99" freq="900.00" name="1080" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
+    <e1Detector id="1080_5" lane="-749560274#2_1" pos="0.19" freq="900.00" name="1080" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="2010_1" lane="-24537982#1_1" pos="58.11" freq="900.00" name="2010" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="2010_10" lane="24972185#2.111_2" pos="355.47" freq="900.00" name="2010" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="2010_2" lane="-24537982#1_2" pos="57.99" freq="900.00" name="2010" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
@@ -130,8 +130,8 @@
     <e1Detector id="3022_10" lane="266567304#0_3" pos="40.38" freq="900.00" name="3022" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="3022_11" lane="266567304#0_3" pos="51.04" freq="300.00" name="3022" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="3022_2" lane="323248156#0_2" pos="15.00" freq="900.00" name="3022" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
-    <e1Detector id="3022_3" lane="266567303_1" pos="11.53" freq="900.00" name="3022" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
-    <e1Detector id="3022_4" lane="266567303_2" pos="11.52" freq="900.00" name="3022" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
+    <e1Detector id="3022_3" lane="266567303_1" pos="9.61" freq="900.00" name="3022" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
+    <e1Detector id="3022_4" lane="266567303_2" pos="9.61" freq="900.00" name="3022" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="3022_5" lane="266567294#0_3" pos="8.00" freq="900.00" name="3022" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="3022_6" lane="323248169#0_0" pos="3.93" freq="900.00" name="3022" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="3022_8" lane="266567304#0_1" pos="39.79" freq="900.00" name="3022" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
@@ -156,15 +156,15 @@
     <e1Detector id="3040_8" lane="257907860#1.168_1" pos="51.97" freq="900.00" name="3040" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="3040_9" lane="257907860#1.168_2" pos="52.24" freq="900.00" name="3040" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="3060_1" lane="202070429#3_1" pos="56.91" freq="900.00" name="3060" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
-    <e1Detector id="3060_10" lane="202070429#4_1" pos="42.34" freq="900.00" name="3060" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
+    <e1Detector id="3060_10" lane="202070429#4_1" pos="35.10" freq="900.00" name="3060" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="3060_2" lane="202070429#3_2" pos="57.15" freq="900.00" name="3060" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
-    <e1Detector id="3060_3" lane="175761129#1_1" pos="115.92" freq="900.00" name="3060" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
+    <e1Detector id="3060_3" lane="175761129#1_1" pos="113.65" freq="900.00" name="3060" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="3060_4" lane="-202070429#5_1" pos="251.01" freq="900.00" name="3060" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="3060_5" lane="-202070429#5_2" pos="251.04" freq="900.00" name="3060" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
-    <e1Detector id="3060_6" lane="-153692837#0_1" pos="47.64" freq="900.00" name="3060" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
-    <e1Detector id="3060_7" lane="-202070429#4_1" pos="50.11" freq="900.00" name="3060" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
-    <e1Detector id="3060_8" lane="-202070429#4_2" pos="50.21" freq="900.00" name="3060" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
-    <e1Detector id="3060_9" lane="202070429#4_2" pos="42.05" freq="900.00" name="3060" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
+    <e1Detector id="3060_6" lane="-153692837#0_1" pos="45.83" freq="900.00" name="3060" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
+    <e1Detector id="3060_7" lane="-202070429#4_1" pos="35.10" freq="900.00" name="3060" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
+    <e1Detector id="3060_8" lane="-202070429#4_2" pos="35.10" freq="900.00" name="3060" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
+    <e1Detector id="3060_9" lane="202070429#4_2" pos="35.10" freq="900.00" name="3060" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="3080_1" lane="-149045269#4_1" pos="0.91" freq="900.00" name="3080" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="3080_2" lane="202070429#7_1" pos="7.42" freq="900.00" name="3080" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="3080_3" lane="202070429#7_2" pos="7.27" freq="900.00" name="3080" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
@@ -284,7 +284,7 @@
     <e1Detector id="4050_3" lane="29119849#0_1" pos="48.93" freq="900.00" name="4050" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="4050_4" lane="29119849#0_2" pos="48.83" freq="900.00" name="4050" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="4050_5" lane="29119849#1_3" pos="4.23" freq="900.00" name="4050" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
-    <e1Detector id="4050_6" lane="248012814_1" pos="5.19" freq="900.00" name="4050" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
+    <e1Detector id="4050_6" lane="248012814_1" pos="5.16" freq="900.00" name="4050" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="4060_1" lane="30399322#1.56_1" pos="49.73" freq="900.00" name="4060" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="4060_2" lane="30399322#1.56_2" pos="49.78" freq="900.00" name="4060" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="4060_3" lane="30399322#1.56_3" pos="55.90" freq="900.00" name="4060" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
@@ -301,9 +301,9 @@
     <e1Detector id="4100_1" lane="315358252#0_1" pos="106.96" freq="900.00" name="4100" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="4100_2" lane="315358252#0_2" pos="107.43" freq="900.00" name="4100" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="4100_3" lane="315358252#0_3" pos="117.10" freq="900.00" name="4100" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
-    <e1Detector id="4100_5" lane="-447569997#0_1" pos="0.28" freq="900.00" name="4100" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
-    <e1Detector id="4100_6" lane="-447569997#0_2" pos="0.28" freq="900.00" name="4100" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
-    <e1Detector id="4100_7" lane="-447569997#0_3" pos="0.25" freq="900.00" name="4100" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
+    <e1Detector id="4100_5" lane="-447569997#0_1" pos="0.19" freq="900.00" name="4100" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
+    <e1Detector id="4100_6" lane="-447569997#0_2" pos="0.19" freq="900.00" name="4100" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
+    <e1Detector id="4100_7" lane="-447569997#0_3" pos="0.19" freq="900.00" name="4100" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="4100_8" lane="-129379918#1_1" pos="14.21" freq="900.00" name="4100" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="4100_9" lane="-129379918#1_2" pos="8.93" freq="900.00" name="4100" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="4110_1" lane="-129379921#0_1" pos="5.47" freq="900.00" name="4110" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
@@ -317,12 +317,12 @@
     <e1Detector id="4140_1" lane="176550246_1" pos="2.12" freq="900.00" name="4140" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="4140_10" lane="128361109#3_3" pos="42.81" freq="900.00" name="4140" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="4140_11" lane="128361109#3_4" pos="48.43" freq="900.00" name="4140" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
-    <e1Detector id="4140_12" lane="137133006#0_1" pos="106.28" freq="900.00" name="4140" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
-    <e1Detector id="4140_13" lane="137133006#0_2" pos="106.19" freq="900.00" name="4140" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
-    <e1Detector id="4140_14" lane="137133006#0_3" pos="106.15" freq="900.00" name="4140" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
-    <e1Detector id="4140_15" lane="137133006#0_4" pos="106.10" freq="900.00" name="4140" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
-    <e1Detector id="4140_2" lane="201201953#12_2" pos="44.28" freq="900.00" name="4140" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
-    <e1Detector id="4140_3" lane="201201953#12_3" pos="43.92" freq="900.00" name="4140" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
+    <e1Detector id="4140_12" lane="137133006#0_1" pos="103.99" freq="900.00" name="4140" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
+    <e1Detector id="4140_13" lane="137133006#0_2" pos="103.37" freq="900.00" name="4140" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
+    <e1Detector id="4140_14" lane="137133006#0_3" pos="102.73" freq="900.00" name="4140" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
+    <e1Detector id="4140_15" lane="137133006#0_4" pos="102.07" freq="900.00" name="4140" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
+    <e1Detector id="4140_2" lane="201201953#12_2" pos="43.34" freq="900.00" name="4140" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
+    <e1Detector id="4140_3" lane="201201953#12_3" pos="43.32" freq="900.00" name="4140" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="4140_4" lane="176550246_4" pos="1.61" freq="900.00" name="4140" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="4140_5" lane="201238726#0.117_1" pos="4.33" freq="900.00" name="4140" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="4140_6" lane="201238726#0.117_2" pos="4.28" freq="900.00" name="4140" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
@@ -420,19 +420,24 @@
     <e1Detector id="5050_7" lane="10425609#0_1" pos="27.48" freq="900.00" name="5050" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="5050_8" lane="10425609#0_2" pos="26.42" freq="900.00" name="5050" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="5050_9" lane="10425609#0_3" pos="25.50" freq="900.00" name="5050" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
-    <e1Detector id="5051_1" lane="124812856#1_1" pos="7.24" freq="900.00" name="5051" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
-    <e1Detector id="5051_2" lane="124812856#1_3" pos="8.66" freq="900.00" name="5051" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
-    <e1Detector id="5051_3" lane="-173169611#0.65_1" pos="4.94" freq="900.00" name="5051" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
-    <e1Detector id="5051_4" lane="-173169611#0.65_2" pos="6.50" freq="900.00" name="5051" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
-    <e1Detector id="5051_5" lane="201956819#0.118_2" pos="6.05" freq="900.00" name="5051" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
-    <e1Detector id="5051_6" lane="201956819#0.118_3" pos="5.04" freq="900.00" name="5051" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
-    <e1Detector id="5051_7" lane="124812856#1_2" pos="7.08" freq="900.00" name="5051" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
+    <e1Detector id="5051_1" lane="124812856#1_1" pos="0.19" freq="900.00" name="5051" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
+    <e1Detector id="5051_2" lane="124812856#1_3" pos="0.19" freq="900.00" name="5051" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
+    <e1Detector id="5051_3" lane="-173169611#0.65_1" pos="0.19" freq="900.00" name="5051" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
+    <e1Detector id="5051_4" lane="-173169611#0.65_2" pos="0.26" freq="900.00" name="5051" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
+    <e1Detector id="5051_5" lane="201956819#0.118_2" pos="0.19" freq="900.00" name="5051" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
+    <e1Detector id="5051_6" lane="201956819#0.118_3" pos="0.19" freq="900.00" name="5051" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
+    <e1Detector id="5051_7" lane="124812856#1_2" pos="0.19" freq="900.00" name="5051" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="5060_1" lane="201969576#5_1" pos="3.65" freq="900.00" name="5060" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="5060_2" lane="201969576#5_2" pos="3.69" freq="900.00" name="5060" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="5060_3" lane="201969576#5_3" pos="3.43" freq="900.00" name="5060" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="5060_5" lane="-151167738#2_1" pos="161.72" freq="900.00" name="5060" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="5060_7" lane="-201969576#6_1" pos="5.20" freq="900.00" name="5060" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
-    <e1Detector id="5080" lane="-10425610#2_1" pos="15.82" freq="900.00" name="5080" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
+    <e1Detector id="5080_1" lane="-10425610#2_1" pos="15.82" freq="900.00" name="5080" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
+    <e1Detector id="5080_2" lane="-10425610#2_2" pos="16.04" freq="900.00" name="5080" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
+    <e1Detector id="5080_3" lane="-389831364_1" pos="85.44" freq="900.00" name="5080" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
+    <e1Detector id="5080_4" lane="-389831364_2" pos="85.29" freq="900.00" name="5080" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
+    <e1Detector id="5080_5" lane="102818928#1_1" pos="45.71" freq="900.00" name="5080" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
+    <e1Detector id="5080_6" lane="102818928#1_2" pos="45.61" freq="900.00" name="5080" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="5090_1" lane="-201969576#0_1" pos="58.22" freq="900.00" name="5090" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="5090_2" lane="-201969576#0_2" pos="57.77" freq="900.00" name="5090" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="5090_3" lane="-102818928#0.78_1" pos="56.02" freq="900.00" name="5090" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
@@ -554,8 +559,8 @@
     <e1Detector id="8401_5" lane="-27830333#1_2" pos="57.14" freq="900.00" name="8401" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="8401_6" lane="-27830333#0_3" pos="1.05" freq="900.00" name="8401" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="8401_7" lane="-393420116#2_1" pos="31.46" freq="900.00" name="8401" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
-    <e1Detector id="8403_1" lane="136728344#4.137_1" pos="1.28" freq="900.00" name="8403" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
-    <e1Detector id="8403_2" lane="136728344#4.137_2" pos="1.98" freq="900.00" name="8403" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
+    <e1Detector id="8403_1" lane="136728344#4.137_1" pos="0.19" freq="900.00" name="8403" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
+    <e1Detector id="8403_2" lane="136728344#4.137_2" pos="0.19" freq="900.00" name="8403" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="8403_3" lane="-29146979#1_1" pos="26.08" freq="900.00" name="8403" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="8403_4" lane="-29146979#1_2" pos="26.11" freq="900.00" name="8403" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="8403_5" lane="-130185488#0_1" pos="0.77" freq="900.00" name="8403" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
@@ -576,11 +581,6 @@
     <e1Detector id="9503_6" lane="-25122731#1_1" pos="17.85" freq="900.00" name="9503" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="e1Detector_0" lane="172515811#0_3" pos="52.01" freq="900.00" name="1011" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="e1Detector_1" lane="32923867#2_2" pos="1.24" freq="900.00" name="1022" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
-    <e1Detector id="e1Detector_13" lane="-10425610#2_2" pos="16.04" freq="900.00" name="5080" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
-    <e1Detector id="e1Detector_14" lane="-389831364_1" pos="85.44" freq="900.00" name="5080" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
-    <e1Detector id="e1Detector_15" lane="-389831364_2" pos="85.29" freq="900.00" name="5080" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
-    <e1Detector id="e1Detector_16" lane="102818928#1_1" pos="45.71" freq="900.00" name="5080" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
-    <e1Detector id="e1Detector_17" lane="102818928#1_2" pos="45.61" freq="900.00" name="5080" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="e1Detector_22" lane="146973183#0_0" pos="312.60" freq="900.00" name="6042" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="e1Detector_8" lane="137463475#0_1" pos="171.87" freq="900.00" name="3030" file="InTAS_Detectors_Output.xml" friendlyPos="1"/>
     <e1Detector id="income" lane="-233673422#10_0" pos="48.93" freq="900.00" file="gate.xml" friendlyPos="1"/>
