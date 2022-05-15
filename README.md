@@ -1,2 +1,2 @@
 # hello-world2
-Übung repository
+Übungs repository
