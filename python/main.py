@@ -55,7 +55,8 @@ def sg_file(crossings):
             if c[1].get('check_Index')[0]:
                 pass
             else:
-                sg_f.write('There are missing indices: The last index should be ' + str(c[1].get('check_Index')[1]))
+                # sg_f.write('There are missing indices: The last index should be ' + str(c[1].get('check_Index')[1]))
+                print('There are missing indices: The last index should be ' + str(c[1].get('check_Index')[1]))
             sg_f.close()
 
 
@@ -106,6 +107,12 @@ with open(file) as csvdatei:
             double_crossings.append(double_c)
         before_row = str(row[0])
 
+        # Prüfen, ob Anzahl Detectoren mit Spuren und Distance Liste übereinstimmt
+        if len(crossing.get('Detector')) != len(crossing.get('Sumo_Lane')):
+            print('Die Anzahl der Detectoren stimmt nicht mit der Anzahl der Spuren überein!')
+        if len(crossing.get('Sumo_Lane')) != len(crossing.get('Distance')):
+            print('Die Anzahl der Spuren stimmt nicht mit der Anzahl der Distancen überein!')
+
 for c in crossing_dicts.items():
     print(c)
 # for c in double_crossings:
@@ -118,13 +125,15 @@ sg_file(crossing_dicts)
 double_crossing_file(double_crossings)
 
 
-# Längen Datei erstellen
-# -> Tabs für richtiges Format einfügen
+# Längen Datei erstellenx
 def length_file(crossings, lanes):
-    length_f = open('Length_Mapping', "w")
+    length_f = open('Length_Mapping.add.xml', "w")
 
     # Kopf der Datei schreiben
     length_f.write('<?xml version="1.0" encoding="UTF-8"?>' + "\n" +
+                   '<!-- generated on 2022-07-27 16:42:42 by Eclipse SUMO netedit Version 1.14.1' + "\n" +
+                   '<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" '
+                   'xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">' + "\n" +
                    '<input>' + "\n" +
                    '<sumo-net-file value="/home/pritesh/Intas/InTAS_RealFuture/scenario/InTAS.net.xml"/>' + "\n" +
                    '</input>' + "\n" + "\n" +
